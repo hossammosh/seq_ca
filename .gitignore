@@ -1,0 +1,45 @@
+# Ignore data/lasot folder
+data/lasot
+data/lasot/*.*
+tensorboard/train
+train/seqtrack/seqtrack_b256/checkpoints
+tensorboard/train/
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE files
+.idea/
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore large files or logs
+*.pth
+*.tar
+*.zip
+*.log
+*.pdf
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Jupyter notebooks
+.ipynb_checkpoints/
+
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
