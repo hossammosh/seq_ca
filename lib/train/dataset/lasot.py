@@ -9,7 +9,8 @@ from collections import OrderedDict
 from .base_video_dataset import BaseVideoDataset
 from lib.train.data import jpeg4py_loader
 from lib.train.admin import env_settings
-
+import torch.nn.functional as F
+from lib.utils.box_ops import box_iou  # You may need to create this
 
 class Lasot(BaseVideoDataset):
     """ LaSOT dataset.
