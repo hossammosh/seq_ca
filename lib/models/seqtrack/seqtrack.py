@@ -32,7 +32,7 @@ class SEQTRACK(nn.Module):
         self.confidence_enabled = hasattr(decoder, 'confidence_enabled') and decoder.confidence_enabled
 
         if self.confidence_enabled:
-            self.total_bins = self.bbox_bins + self.confidence_bins + 2  # +2 for start/end
+            self.total_bins = self.bbox_bins + self.confidence_bins + 2  # +2 for start/endpppp
             self.confidence_vocab_offset = self.bbox_bins
         else:
             self.total_bins = self.bbox_bins + 2  # +2 for start/end
